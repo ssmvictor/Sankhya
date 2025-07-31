@@ -49,7 +49,7 @@ class SankhyaSchemaExtractor:
             'db_user': os.environ.get("DB_USER"),
             'db_host': os.environ.get("DB_HOST"),
             'db_port': os.environ.get("DB_PORT", "1521"),
-            'db_service': os.environ.get("DB_SERVICE", "prodpdb"),
+            'db_service': os.environ.get("DB_SERVICE"),
             'db_password': os.environ.get("DB_PASSWORD")
         }
         

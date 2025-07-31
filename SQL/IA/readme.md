@@ -40,9 +40,9 @@ Configure as seguintes variáveis de ambiente:
 |----------|-----------|-------------|---------|
 | `DB_USER` | Usuário do banco Oracle | ✅ | - |
 | `DB_HOST` | Endereço do servidor Oracle | ✅ | - |
-| `DB_PORT` | Porta do servidor Oracle | ❌ | `1521` |
-| `DB_SERVICE` | Nome do serviço Oracle | ❌ | `prodpdb` |
-| `DB_PASSWORD` | Senha do usuário | ❌ | Solicita interativamente |
+| `DB_PORT` | Porta do servidor Oracle | ✅ | `1521` |
+| `DB_SERVICE` | Nome do serviço Oracle | ✅ | - | 
+| `DB_PASSWORD` | Senha do usuário | ✅ | Solicita interativamente |
 
 ### 2. Métodos de Configuração
 
